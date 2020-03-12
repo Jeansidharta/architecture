@@ -1,0 +1,23 @@
+{
+  "name": "gobrain",
+  "version": "1.0.0",
+  "description": "This document has the purpose to specify the architecture of [this](https://xd.adobe.com/view/e5a9d78f-bae8-4fe1-43ce-4ab2e2c67ea0-9398/?fullscreen) web application, using React and Redux. The architecture should specify the following items: - **Separation of modules:** What criteria should be used to group modules by. - **Module comunication:** To whom should modules comunicate with and how should this comunication happen. - **Folder structure:** How should the project's modules be organized, and where should new modules be placed.",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p public && github-markdown ./readme.md > public/index.html && cp *.svg public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeansidharta/architecture.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeansidharta/architecture/issues"
+  },
+  "homepage": "https://github.com/Jeansidharta/architecture#readme",
+  "devDependencies": {
+    "markdown-to-html": "0.0.13"
+  }
+}
