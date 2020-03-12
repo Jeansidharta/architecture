@@ -1,5 +1,7 @@
 # Architecture
 
+A live version of this document can be found [here](https://architecture-specification.netlify.com/), and it's github repository can be found [here](https://github.com/Jeansidharta/architecture)
+
 This document has the purpose to specify the architecture of [this](https://xd.adobe.com/view/e5a9d78f-bae8-4fe1-43ce-4ab2e2c67ea0-9398/?fullscreen) web application, using React and Redux. The architecture should specify the following items:
 - **Separation of modules:** What criteria should be used to group modules by.
 - **Module comunication:** To whom should modules comunicate with and how should this comunication happen.
